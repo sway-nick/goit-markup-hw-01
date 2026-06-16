@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <!-- lang="en" — язык страницы для поисковых систем и скринридеров -->
 <html lang="en">
@@ -19,16 +20,16 @@
 <body>
 
     <!-- Шапка сайта -->
-    <header>
+    <header id="header">
 
         <!-- Логотип со ссылкой на главную страницу -->
         <a href="./index.html">WEBSTUDIO</a>
 
         <!-- Список ссылок меню -->
         <ul>
-            <li><a href="#">Studio</a></li>
-            <li><a href="#">Portfolio</a>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#hero">Studio</a></li>
+            <li><a href="#team">Portfolio</a></li>
+            <li><a href="#footer">Contacts</a></li>
         </ul>
 
         <!-- Контактная информация -->
@@ -55,7 +56,7 @@
     <main>
 
         <!-- Главный экран (Hero section) -->
-        <section id="studio">
+        <section id="hero">
 
             <!-- На странице должен быть только один h1 -->
             <h1>Effective Solutions for Your Business</h1>
@@ -68,10 +69,10 @@
         </section>
 
         <!-- Секция преимуществ компании -->
-        <section>
+        <section id="features">
 
             <!-- Заголовок нужен для семантики, но не отображается -->
-            <h2 hidden>Advantages</h2>
+            <h2 hidden>Features</h2>
 
             <!-- Список преимуществ -->
             <ul>
@@ -111,7 +112,7 @@
         </section>
 
         <!-- Секция команды -->
-        <section>
+        <section id="team">
 
             <h2>Our Team</h2>
 
@@ -155,7 +156,7 @@
     </main>
 
     <!-- Подвал сайта -->
-    <footer id="contacts">
+    <footer id="footer">
 
         <!-- Логотип в футере также является ссылкой на главную страницу -->
         <a href="./index.html">WEBSTUDIO</a>
@@ -170,3 +171,4 @@
 </body>
 
 </html>
+```
